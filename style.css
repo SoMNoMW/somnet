@@ -1,0 +1,131 @@
+body {
+  background-color: #616161;
+  box-shadow: 0px 0px 300px gainsboro;
+}
+h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  color: white;
+}
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #474747;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    border-radius: 10px;
+    margin-top: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: white;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+#net {
+  color: lightblue;
+  background: blue;
+  border-radius: 10px;
+  margin: -1px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 100;
+  color: lightgrey;
+  text-shadow: 0px 0px 3px;
+}
+#somnetlogo {
+  background: none;
+  font-size: 2rem;
+  position: relative;
+  left: 50%;
+  margin-left: -5.3rem;
+  margin-top: 10px;
+  transition: 250ms color ease-in-out;
+}
+#somnetlogo:focus,
+#somnetlogo:hover {
+  color: yellow;
+  text-shadow: 0px 0px 5px yellow;
+}
+#somnetlogo:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+#somnetlogo:active {
+  transform: scale(0.90);
+}
+h3 {
+  color: orange;
+  text-shadow: 0px 0px 3px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#beanclick {
+  border-radius: 300px;
+  box-shadow: 0px 0px 5px black;
+  transition: 150ms transform ease-in-out;
+  cursor: pointer;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+#beanclick:focus,
+#beanclick:hover {
+  transform: scale(0.75);
+}
+#beanclick:active {
+  transform: scale(0.7);
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  color: yellow;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#clickbuttonbean {
+  background: none;
+}
+#gamerlandbutton {
+  position: relative;
+  top: -24px;
+  left: -90px;
+  background: orange;
+  color: gold;
+  padding: 10px;
+}
+#gamerlandbutton:focus,
+#gamerlandbutton:hover {
+  background: darkorange;
+}
+#gamerlandbutton:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+#gamerlandbutton:active {
+  transform: scale(0.9);
+}
